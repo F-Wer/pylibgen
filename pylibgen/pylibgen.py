@@ -1,9 +1,8 @@
 import os
 import re
-import requests
 import webbrowser
-from urllib.parse import quote_plus
-from . import constants
+from urllib import quote_plus
+from . import constants, requests
 
 
 class Library(object):
