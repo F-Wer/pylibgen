@@ -1,20 +1,13 @@
 pylibgen
 ==========================
-|PyPI Version| |Travis Status| |License MIT|
+|License MIT|
+
 
 Python interface to Library Genesis.
 
 Currently supports the :code:`libgen.io` mirror. Will need to write custom parsers for other mirrors in the future.
 
-
-Installation
----------------------
-
-pylibgen can be installed through pip!
-::
-
-    $ pip3 install pylibgen --user
-
+**This is fork of [pylibgen](https://github.com/JoshuaRLi/pylibgen) meant to work with python 2.7 without any external dependecnies (like requests)**
 
 Usage
 ---------------------
@@ -67,13 +60,3 @@ Disclaimer
 ---------------------
 
 Use this at your own risk. I am not responsible or liable for any piracy, copyright infringement, or other things committed by anyone using pylibgen. Blah blah lawyer stuff, etc.
-
-
-.. |PyPI Version| image:: https://img.shields.io/pypi/v/pylibgen.svg
-   :target: https://pypi.python.org/pypi/pylibgen
-
-.. |Travis Status| image:: https://travis-ci.org/JoshuaRLi/pylibgen.svg?branch=master
-    :target: https://travis-ci.org/JoshuaRLi/pylibgen
-
-.. |License MIT| image:: https://img.shields.io/github/license/mashape/apistatus.svg
-    :target: https://github.com/JoshuaRLi/pylibgen/blob/master/LICENSE
