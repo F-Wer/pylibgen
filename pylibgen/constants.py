@@ -1,6 +1,6 @@
 # Mirrors may change over time.
 MIRRORS = [
-    'libgen.io',
+    'libgen.is',
 ]
 
 DEFAULT_MIRROR = MIRRORS[0]
